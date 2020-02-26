@@ -1,0 +1,166 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.aboutus{
+    font-size: 35px;
+    font-family: 'Montserrat-medium';
+    color: #191919;
+    text-transform: none;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* ------------------------------------------------------------------ */
+
+header {
+    background: url(../images/fon1.jpg) 50% 50%/cover;
+    height: 671px;
+}
+
+nav{
+    margin-bottom: 72px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+    font-family: 'Myriadpro-regular';
+    font-weight: 600;
+    color: #100f0e;
+}
+
+.nav-item {
+    margin-left: 32px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #007d2f;
+}
+
+.btn-success {
+    padding: 25px 55px;
+    font-size: 12px;
+    font-family: 'Myriadpro-regular';
+    text-transform: uppercase;
+}
+
+.design a {
+    width: 190px;
+    text-decoration: none;
+}
+
+.design p {
+    width: 40%;
+    font-family: 'Myriadpro-regular';
+    font-size: 15px;
+    color: #787878;
+    margin-bottom: 54px;
+}
+
+h1 {
+    color: #1d1d1d;
+    font-size: 35px;
+    font-family: 'Myriadpro-regular';
+    margin-bottom: 39px;
+
+
+}
+
+.margin-bottom{
+    margin-bottom: 30px;
+}
+.p2{
+    font-family: 'NunitoSans-regular';
+    color: #787878;
+    text-align: center;
+    width: 60%;
+}
+.bar1{
+    height: 3px;
+    background-color: green;
+    width:75%
+}
+.bar2{
+    height: 3px;
+    background-color: green;
+    width:90%
+}
+.bar3{
+    height: 3px;
+    background-color: green;
+    width:60%
+    
+}
+.div-bar{
+    height: 245px;
+}
+.div-bar h3{
+    font-family: 'Myriadpro-regular';
+    font-size: 12px;
+    text-transform: uppercase;
+
+}
+.width-50{
+    width: 50%;
+    background-color: #f8f9f9;
+}
+.bar{
+    width: 500px;
+
+}
+.bar4{
+    background-color: #d8d8d8 ;
+    height: 3px;
+    width:25% ;
+}
+.bar5{
+    background-color: #d8d8d8 ;
+    height: 3px;
+    width:10%;
+}
+.bar6{
+    background-color: #d8d8d8;
+    height: 3px;
+    width:40%;
+}
+.green-div2{
+    background: #007d2f;
+}
+.pe-7s-portfolio{
+font-size: 48px;
+}
+.pe-7s-clock{
+font-size: 48px;
+}
+.pe-7s-star{
+font-size: 48px;
+}
+.pe-7s-like{
+font-size: 48px;
+}
+.green-div2 div{
+    
+    
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.green-div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.green-div2 span,p{
+    color: #d8d8d8;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.img{
+    width: 50%;
+}
+.img img{
+    width: 100%;
+}

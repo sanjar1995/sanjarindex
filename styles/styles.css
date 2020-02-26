@@ -1,0 +1,535 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.aboutus {
+    font-size: 35px;
+    font-family: 'Montserrat-medium';
+    color: #191919;
+    text-transform: none;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* ------------------------------------------------------------------ */
+
+.header {
+    background: url(../images/fon1.jpg) 50% 50%/cover;
+    height: 671px;
+}
+
+.nav{
+    margin-bottom: 72px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+    font-family: 'Myriadpro-regular';
+    font-weight: 600;
+    color: #100f0e;
+}
+
+.nav-item {
+    margin-left: 32px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #007d2f;
+}
+
+.btn-success {
+    padding: 22px 0;
+    font-size: 12px;
+    font-family: 'Myriadpro-regular';
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.design a {
+    width: 190px;
+    text-decoration: none;
+}
+
+.design p {
+    width: 40%;
+    font-family: 'Myriadpro-regular';
+    font-size: 15px;
+    color: #787878;
+    margin-bottom: 54px;
+}
+
+h1 {
+    color: #1d1d1d;
+    font-size: 35px;
+    font-family: 'Myriadpro-regular';
+    margin-bottom: 39px;
+
+
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+.p2 {
+    font-family: 'NunitoSans-regular';
+    color: #787878;
+    text-align: center;
+    width: 60%;
+    text-transform: capitalize;
+}
+
+.bar1 {
+    height: 3px;
+    background-color: green;
+    width: 75%
+}
+
+.bar2 {
+    height: 3px;
+    background-color: green;
+    width: 90%
+}
+
+.bar3 {
+    height: 3px;
+    background-color: green;
+    width: 60%
+}
+
+.div-bar {
+    height: 245px;
+}
+
+.div-bar h3 {
+    font-family: 'Myriadpro-regular';
+    font-size: 12px;
+    text-transform: uppercase;
+
+}
+
+.width-50 {
+    width: 50%;
+    background-color: #f8f9f9;
+}
+
+.bar {
+    width: 500px;
+
+}
+
+.bar4 {
+    background-color: #d8d8d8;
+    height: 3px;
+    width: 25%;
+}
+
+.bar5 {
+    background-color: #d8d8d8;
+    height: 3px;
+    width: 10%;
+}
+
+.bar6 {
+    background-color: #d8d8d8;
+    height: 3px;
+    width: 40%;
+}
+
+.green-div2 {
+    background: #007d2f;
+}
+
+.pe-7s-portfolio {
+    font-size: 48px;
+}
+
+.pe-7s-clock {
+    font-size: 48px;
+}
+
+.pe-7s-star {
+    font-size: 48px;
+}
+
+.pe-7s-like {
+    font-size: 48px;
+}
+
+.green-div2 div {
+
+
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.green-div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.green-div2 span,
+p {
+    color: #d8d8d8;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.img {
+    width: 50%;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+.pics div {
+    width: 25%;
+}
+
+
+
+.div-eye {
+    position: relative;
+}
+
+.div-eye span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.div-eye:hover span {
+    background: rgba(0, 0, 0, 0.6);
+    transform: rotate(180deg);
+}
+
+.div-eye:hover span .pe-7s-look {
+    opacity: 1;
+
+}
+
+.div-eye .pe-7s-look {
+    color: #f8f9f9;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.pe-7s-look {
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.video {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.pe-7s-play {
+    position: absolute;
+    top: 50%;
+    font-size: 25px;
+    color: white;
+    padding: 25px 25px;
+    background: #007d2f;
+    border-radius: 50%;
+}
+
+.pe-7s-play:hover {
+    cursor: wait;
+}
+
+.div-icon {
+    text-align: center;
+    font-size: 12px;
+     padding-top: 106px;
+    padding-bottom: 103px;
+
+}
+
+
+.pe-7s-diamond {
+    font-size: 48px;
+
+}
+
+.pe-7s-arc {
+    font-size: 48px;
+}
+
+.pe-7s-phone {
+    font-size: 48px;
+}
+
+.pe-7s-joy {
+    font-size: 48px;
+}
+
+.pe-7s-plane {
+    font-size: 48px;
+}
+
+.pe-7s-plane {
+    font-size: 48px;
+}
+
+.pe-7s-star {
+    font-size: 48px;
+}
+
+.pe-7s-magic-wand {
+    font-size: 48px;
+}
+
+.pe-7s-paint-bucket {
+    font-size: 48px;
+}
+
+.icons h3 {
+    font-family: 'Montserrat-medium';
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.icons p {
+    font-family: 'NunitoSans-regular';
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.icons {
+    margin-bottom: 20px;
+}
+
+.container-fluid {
+    background: #f5f5f5;
+   
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+}
+
+.carousel-indicators li:hover {
+    transform: scale(2);
+    opacity: 1;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 50%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.padding{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.textarea{
+resize: none;
+border: none;
+}
+.input-in input{
+    border:none ;
+    margin-bottom: 20px;
+    height: 50px;
+}
+.mr{
+    margin-right: px;
+}
+.input-in button{
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 23px 25px 23px;
+}
+.footer-div{
+    color: #bcbcbc;
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'NunitoSans-regular';
+    padding-top: 98px;
+    padding-bottom: 100px;
+    line-height: 24px ;
+    
+
+}
+.s48{
+width: 48%;
+padding-left: 15px;
+padding-right: 15px;
+}
+footer{
+    background: #141414;
+}
+.footer-div p{
+text-transform: capitalize;
+}
+/* =================================================Home========================================= */
+.design-home{
+    height: 315px;
+
+
+}
+.design-home h3{
+    font-family: 'Montserrat-medium';
+    font-size:  30px;
+    color: #171717;
+
+}
+.design-home p{
+    font-family: 'Montserrat-medium';
+    max-width: 535px;
+    width: 100%;
+}
+.design-home-in{
+   height: 150px;
+}
+
+
+
+
+/* =================================================Home end========================================= */
+
+
+/* =================================================About Start========================================= */
+.About-cont{
+    background: #323232;
+    height: 350px;
+
+}
+
+.About-cont-in{
+    width: 702px;
+    text-align: center;
+}
+.About-cont-in h3{
+    font-family: 'Montserrat-medium';
+    font-size: 61px;
+    color: #ffffff;
+}
+.About-cont-in p{
+    font-family: 'NunitoSans-regular';
+    font-size: 22px;
+    color: #ebebeb;
+    text-transform: capitalize;
+}
+.about-green{
+    padding-top: 63px;
+    padding-bottom: 101px;
+}
+.abuot-sign{
+    width: 445px;
+    height: 350px;
+}
+.abuot-sign p{
+        font-family: 'NunitoSans-regular';
+        font-size: 16px;
+        color: #787878;
+        text-transform: capitalize;
+}
+.abuot-sign h2{
+    font-family: 'Montserrat-medium';
+    font-size: 30px;
+    color: #171717;
+}
+
+.about-project{
+    padding-top: 104px;
+    padding-bottom: 104px;
+}
+.about-project h2{
+    font-family: 'Montserrat-medium';
+    font-size: 30px;
+    color: #1d1d1d;
+    margin-bottom: 43px;
+}
+.about-project p{
+    font-family: 'NunitoSans-regular';
+    font-size: 16px;
+    color: #787878;
+    width: 45%;
+    margin: 0 auto;
+}
+.about-project button{
+    margin-top: 20px;
+    padding: 20px 40px 20px;
+
+}
+
+
+
+
+
+/* =================================================About end========================================= */
+
+
+
+/* =================================================Project Start========================================= */
+.project-green{
+    height: 100px;
+}
+.carousel-indicators-project {
+    width: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+.carousel-indicators-project li {
+    width: 6px;
+    height: 6px;
+    border-radius: 0;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-right: 2px solid transparent;
+    margin: 0;
+}
+.carousel-indicators-project li:hover {
+    transform: scale(1);
+}
+.project-sign h2{
+    font-family: 'Montserrat-medium';
+    font-size: 18px;
+        color: #171717;
+}
+.project-sign p{
+    font-family: 'NunitoSans-regular';
+    font-size: 16px;
+    color: #787878;
+}
+.project-sign span{
+    color: #171717;
+    font-family: 'Montserrat-medium';
+}
+
+
+
+
+
+
+
+
+
+/* =================================================Project end========================================= */
